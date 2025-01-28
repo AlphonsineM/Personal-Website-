@@ -1,0 +1,142 @@
+body {
+  font-family: monospace;
+  text-align: left;
+  background-color:ghostwhite;
+  color: lightpink;
+}
+
+/*  CODE BELOW is for general page and text display*/
+
+h1 {
+  font-weight:bold;
+  font-family:sans-serif;
+  filter: drop-shadow(10px 10px 7px lightblue);
+  filter: drop-shadow(4px 1px 2px black);
+  
+  }
+
+hr {
+  width:190%;
+  height:1px;
+}
+.citation {
+  height:90px
+  display:flex;
+  align-items:center;
+  font-style:italic;
+}
+
+p{
+  font-weight:bold;
+  font-family:helvetica;
+  font-size: 14px;
+  color:black;
+  font-family:sans-serif;
+  text-align: left;
+}
+
+li{
+  font-weight:bold;
+  font-family:sans-serif;
+  filter: drop-shadow(10px 10px 7px lightblue);
+  filter: drop-shadow(2px 3px 1px black);
+  
+}
+
+a {
+  align-items:flex-start;
+ background-color:#ffe6e9;
+  color:black;
+  border-style:solid;
+  border-color:antiquewhite;
+  border-radius:15px;
+  padding:10px;
+  text-decoration:none;
+  margin:10px;
+}
+
+h2{
+  font-weight:bold;
+  font-family:helvetica;
+  font-size: 18px;
+  color:black;
+  font-family:sans-serif;
+  text-align: center;
+  align-content:stretch;
+  justify-content:flex-start;
+  
+  }
+
+h3{
+  text-align:space-between;
+  align-content:flex-start;
+  font-family:sans-serif 
+  filter: drop-shadow( 2px 3px 1px black);
+}
+
+
+
+a:hover {
+  color:mediumpurple;
+  background-color:lavenderblush;
+  font-size: 15px;
+  text-decoration-style:double;
+  border-radius: 10px;
+}
+a : visited { 
+  color:aliceblue;
+}
+
+img {
+  border-style:solid;
+  float:center;
+  border-radius:15px;
+  height:130px;
+  margin:7px;
+  filter: drop-shadow(10px 10px 7px lightblue);
+  filter: drop-shadow(8px 8px 2px gray);
+}
+/* tags for my buttons */
+.experience:hover {
+  background-color:white;
+}
+
+.skills:hover {
+  background-color:floralwhite;
+}
+.education:hover {
+  background-color:ghostwhite;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap:nowrap;
+  justify-content: flex-start;
+  margin:0px;
+  filter: drop-shadow(10px 10px 7px lightblue);
+  }
+
+.intro-card{
+  display: flex;
+ flex-wrap:nowrap; 
+  height:330px;
+  flex-direction:row;
+  text-align:center;
+  border:7px;
+  margin:30px;
+}
+.container{
+  background-color: white;
+  padding: 10px;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:center;
+  }
+  .citation{
+  height: 400px;
+  display: flex-end;
+  align-items: flex-end;
+  font-style: italic;
+}
+}
